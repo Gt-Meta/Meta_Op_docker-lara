@@ -1,9 +1,22 @@
 <?php
+namespace App\Http\Controllers;
+
 class UserController extends Controller 
+{
 
-namespace App/Http/Controllers
 
+public function index() {
+dd('UserController@index');
+}
 
+public function show($id) {
+    dd('UserController@show', $id);
+    
+    
+    }
+    
+
+}
 
 
 
